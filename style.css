@@ -103,3 +103,6 @@ nav a:hover {
 .social-links a:hover {
     opacity: 0.8;
 }
+.social-links a:nth-child(4) {
+    color: #FFD700;   /* Google Maps - Gold Yellow */
+}
