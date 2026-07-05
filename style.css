@@ -77,3 +77,29 @@ nav a:hover {
     margin: 12px 0;
     color: #cbd5e1;
 }
+.social-links {
+    margin-top: 30px;
+}
+
+.social-links a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.social-links a:nth-child(1) {
+    color: #ff0000;   /* YouTube */
+}
+
+.social-links a:nth-child(2) {
+    color: #e1306c;   /* Instagram */
+}
+
+.social-links a:nth-child(3) {
+    color: #1877f2;   /* Facebook */
+}
+
+.social-links a:hover {
+    opacity: 0.8;
+}
