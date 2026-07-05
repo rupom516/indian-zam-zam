@@ -106,3 +106,11 @@ nav a:hover {
 .social-links a:nth-child(4) {
     color: #FFD700;   /* Google Maps - Gold Yellow */
 }
+
+footer {
+    margin-top: 80px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #cbd5e1;
+    font-size: 14px;
+}
