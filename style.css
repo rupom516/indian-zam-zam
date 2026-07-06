@@ -171,3 +171,42 @@ width:90%;
     display:block;
     margin:20px auto;
 }
+.contact-form{
+width:90%;
+max-width:500px;
+margin:60px auto;
+}
+
+.contact-form h2{
+margin-bottom:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+width:100%;
+padding:15px;
+margin:10px 0;
+border:none;
+border-radius:10px;
+font-size:16px;
+}
+
+.contact-form textarea{
+height:120px;
+resize:none;
+}
+
+.contact-form button{
+width:100%;
+padding:15px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:10px;
+font-size:18px;
+cursor:pointer;
+}
+
+.contact-form button:hover{
+background:#1d4ed8;
+}
