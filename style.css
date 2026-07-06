@@ -228,3 +228,24 @@ margin:10px 0;
 border-radius:12px;
 font-size:18px;
 }
+.offer-banner{
+width:90%;
+max-width:700px;
+margin:40px auto;
+padding:25px;
+background:linear-gradient(90deg,#f59e0b,#f97316);
+border-radius:15px;
+color:white;
+font-weight:bold;
+box-shadow:0 0 20px rgba(255,165,0,.5);
+}
+
+.offer-banner h2{
+margin-bottom:15px;
+font-size:28px;
+}
+
+.offer-banner p{
+margin:8px 0;
+font-size:18px;
+}
