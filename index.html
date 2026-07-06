@@ -94,6 +94,21 @@ class="search-box">
 <p>📞 8370802114</p>
 
 </footer>
+<script>
+const searchBox = document.querySelector(".search-box");
+const mobiles = document.querySelectorAll(".mobile-list li");
 
+searchBox.addEventListener("keyup", function () {
+    let value = this.value.toLowerCase();
+
+    mobiles.forEach(function (phone) {
+        if (phone.textContent.toLowerCase().includes(value)) {
+            phone.style.display = "block";
+        } else {
+            phone.style.display = "none";
+        }
+    });
+});
+</script>
 </body>
 </html>
