@@ -91,3 +91,32 @@ border-radius:10px;
 font-weight:bold;
 font-size:18px;
 }
+.mobiles{
+    width:90%;
+    max-width:900px;
+    margin:50px auto;
+}
+
+.mobiles h2{
+    color:#60a5fa;
+    margin-bottom:20px;
+}
+
+.mobile-list{
+    list-style:none;
+    padding:0;
+}
+
+.mobile-list li{
+    background:rgba(255,255,255,0.08);
+    margin:12px 0;
+    padding:18px;
+    border-radius:12px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.mobile-list li:hover{
+    background:#1e40af;
+    transform:scale(1.03);
+}
