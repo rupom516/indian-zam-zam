@@ -455,3 +455,11 @@ transition:.3s;
 .buy-btn:hover{
 background:#16a34a;
 }
+#noResult{
+display:none;
+text-align:center;
+color:red;
+font-size:20px;
+font-weight:bold;
+margin-top:20px;
+}
