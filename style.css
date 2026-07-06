@@ -389,3 +389,23 @@ transition:.3s;
 .floating-whatsapp:hover{
 transform:scale(1.1);
 }
+#topBtn{
+display:none;
+position:fixed;
+bottom:90px;
+right:20px;
+width:55px;
+height:55px;
+border:none;
+border-radius:50%;
+background:#2563eb;
+color:white;
+font-size:24px;
+cursor:pointer;
+box-shadow:0 4px 10px rgba(0,0,0,.3);
+z-index:9999;
+}
+
+#topBtn:hover{
+background:#1d4ed8;
+}
