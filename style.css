@@ -166,3 +166,8 @@ width:90%;
     font-size:17px;
     outline:none;
 }
+.logo{
+    width:180px;
+    display:block;
+    margin:20px auto;
+}
