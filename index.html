@@ -153,7 +153,9 @@ class="search-box">
 <li>iQOO 13</li>
 
 </ul>
-
+<p id="noResult">
+❌ No Mobile Found
+</p>
 </section>
 <section class="why-us">
 
@@ -264,8 +266,41 @@ loading="lazy">
 <script>
 const searchBox = document.querySelector(".search-box");
 const mobiles = document.querySelectorAll(".mobile-list li");
+  const noResult = document.getElementById("noResult");
 
 searchBox.addEventListener("keyup", function () {
+
+let value=this.value.toLowerCase();
+
+let found=false;
+
+mobiles.forEach(function(phone){
+
+if(phone.textContent.toLowerCase().includes(value)){
+
+phone.style.display="block";
+
+found=true;
+
+}else{
+
+phone.style.display="none";
+
+}
+
+});
+
+if(found){
+
+noResult.style.display="none";
+
+}else{
+
+noResult.style.display="block";
+
+}
+
+});
     let value = this.value.toLowerCase();
 
     mobiles.forEach(function (phone) {
