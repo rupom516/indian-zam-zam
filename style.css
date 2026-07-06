@@ -249,3 +249,26 @@ font-size:28px;
 margin:8px 0;
 font-size:18px;
 }
+.featured{
+width:90%;
+max-width:900px;
+margin:50px auto;
+}
+
+.featured h2{
+margin-bottom:20px;
+color:#60a5fa;
+}
+
+.phone-card{
+background:rgba(255,255,255,.08);
+padding:20px;
+margin:15px 0;
+border-radius:15px;
+transition:.3s;
+}
+
+.phone-card:hover{
+transform:translateY(-5px);
+background:rgba(255,255,255,.15);
+}
