@@ -287,3 +287,20 @@ transition:.3s;
 .buy-btn:hover{
 background:#15803d;
 }
+.reviews{
+width:90%;
+max-width:800px;
+margin:60px auto;
+}
+
+.review-card{
+background:rgba(255,255,255,.08);
+padding:20px;
+margin:15px 0;
+border-radius:12px;
+}
+
+.review-card h4{
+margin-top:10px;
+color:#60a5fa;
+}
