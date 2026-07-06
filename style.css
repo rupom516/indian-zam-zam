@@ -272,3 +272,18 @@ transition:.3s;
 transform:translateY(-5px);
 background:rgba(255,255,255,.15);
 }
+.buy-btn{
+display:inline-block;
+margin-top:15px;
+padding:12px 22px;
+background:#16a34a;
+color:white;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+transition:.3s;
+}
+
+.buy-btn:hover{
+background:#15803d;
+}
