@@ -356,3 +356,14 @@ transition:.3s;
 .call-btn:hover{
 transform:scale(1.1);
 }
+.map-section{
+width:90%;
+max-width:1000px;
+margin:60px auto;
+text-align:center;
+}
+
+.map-section h2{
+margin-bottom:20px;
+color:#60a5fa;
+}
