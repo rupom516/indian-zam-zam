@@ -409,3 +409,49 @@ z-index:9999;
 #topBtn:hover{
 background:#1d4ed8;
 }
+.featured{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+padding:40px 20px;
+}
+
+.phone-card{
+background:#111827;
+border-radius:18px;
+padding:20px;
+text-align:center;
+box-shadow:0 8px 20px rgba(0,0,0,.35);
+transition:.3s;
+border:1px solid rgba(255,255,255,.08);
+}
+
+.phone-card:hover{
+transform:translateY(-8px);
+box-shadow:0 12px 30px rgba(37,99,235,.4);
+}
+
+.phone-card h3{
+color:#60a5fa;
+margin-bottom:15px;
+}
+
+.phone-card p{
+margin:8px 0;
+}
+
+.buy-btn{
+display:inline-block;
+margin-top:15px;
+padding:12px 24px;
+background:#22c55e;
+color:#fff;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+transition:.3s;
+}
+
+.buy-btn:hover{
+background:#16a34a;
+}
