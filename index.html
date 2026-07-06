@@ -248,6 +248,22 @@ searchBox.addEventListener("keyup", function () {
         }
     });
 });
+  let topButton = document.getElementById("topBtn");
+
+window.onscroll = function () {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        topButton.style.display = "block";
+    } else {
+        topButton.style.display = "none";
+    }
+};
+
+function topFunction() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
 </script>
   <a href="tel:8370802114" class="call-btn">📞</a>
   <a href="https://wa.me/918370802114"
