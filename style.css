@@ -210,3 +210,21 @@ cursor:pointer;
 .contact-form button:hover{
 background:#1d4ed8;
 }
+.why-us{
+margin:60px auto;
+width:90%;
+max-width:700px;
+}
+
+.why-us h2{
+margin-bottom:20px;
+color:#60a5fa;
+}
+
+.feature{
+background:rgba(255,255,255,.08);
+padding:15px;
+margin:10px 0;
+border-radius:12px;
+font-size:18px;
+}
